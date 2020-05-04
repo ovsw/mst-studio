@@ -1,0 +1,33 @@
+/* ./styles/variables.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  /* Brand colors */
+  --body-bg: rgb(252, 254, 247);
+  /*--body-text: #fff;
+  --component-text-color: #fff; */
+  --component-bg: rgb(252, 254, 247);
+  --main-navigation-color: #450d0d;
+
+  --brand-primary: #450d0d;
+  --brand-primary--inverted: rgb(104, 173, 13);
+  --brand-secondary: #ffa800;
+  --brand-secondary--inverted: #450d0d;
+
+  /* Typography */
+  --font-family-sans-serif: 'Space Mono';
+  --font-size-base: 16px;
+  /* --text-color: var(--brand-primary--inverted); */
+  --text-color: rgb(88, 88, 88);
+  
+  --header-height: 3.3rem;
+
+  
+  --default-button-color: var(--brand-primary);
+  
+  --default-button-color: rgb(104, 173, 13);
+  --default-button-color--inverted: var(--white);
+  --default-button-color--hover: #87CC2F;
+  --default-button-color--active: #87CC2F;
+}
