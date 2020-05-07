@@ -1,7 +1,6 @@
 import React from 'react'
 import S from '@sanity/desk-tool/structure-builder'
 import Emoji from 'a11y-react-emoji'
-import { MdBook } from 'react-icons/md'
 
 const Icon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🎭' />
 const FindIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🔎' />
@@ -47,14 +46,6 @@ export const PageMenuItemPerformances = S.listItem()
           .id('performancesTestimonials')
           .icon(TestimonialsIcon)
           .title('Performances Testimonials')
-          .schemaType('page'),
-        S.documentListItem()
-          .id('virtualForAdultsHome')
-          .title('Virtual Entertainment for Adults')
-          .schemaType('page'),
-        S.documentListItem()
-          .id('virtualBirthdayPartiesHome')
-          .title('Virtual Birthday Parties')
           .schemaType('page')
       ])
   )

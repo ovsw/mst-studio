@@ -4,9 +4,9 @@ export default {
   name: 'moduleContent',
   type: 'array',
   of: [
-    {
-      type: 'imageModule'
-    },
+    // {
+    //   type: 'imageModule'
+    // },
     {
       type: 'standardText'
     },
@@ -17,8 +17,11 @@ export default {
       type: 'heroInnerModule'
     },
     {
-      type: 'iframeEmbed'
+      type: 'imageWTextOverModule'
     }
+    // {
+    //   type: 'iframeEmbed'
+    // }
     // {
     //   type: 'nestedPages'
     // }

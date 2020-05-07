@@ -1,6 +1,6 @@
 export default {
   title: 'Page Content',
-  name: 'pageModule',
+  name: 'postModule',
   type: 'object',
   hidden: true,
   fieldsets: [
@@ -28,6 +28,17 @@ export default {
         maxLength: 96
       },
       validation: Rule => Rule.required()
+    },
+    {
+      name: 'publishedAt',
+      title: 'Published at',
+      description: 'You can use this field to schedule post where you show them',
+      type: 'datetime'
+    },
+    {
+      name: 'excerpt',
+      title: 'Excerpt',
+      type: 'simpleBlockText'
     },
     {
       name: 'modules',

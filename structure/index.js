@@ -1,17 +1,17 @@
 import { ConfigMenu } from './config.js'
-// import { ProductMenuItem } from './products.js'
-// import { ProductVariantParent } from './variants.js'
-import { CollectionMenuItem } from './collections.js'
 import { PageMenuItem } from './pages.js'
 import { PageMenuItemPerformances } from './pagesPerformances.js'
+import { PageMenuItemProgramming } from './pagesProgramming.js'
 import { PageMenuItemVirtual } from './pagesVirtual.js'
+import { PageMenuItemHidden } from './pagesHidden.js'
+import { BlogMenuItem } from './posts.js'
 
 module.exports = {
   ConfigMenu: ConfigMenu,
-  // ProductMenuItem: ProductMenuItem,
-  // ProductVariantParent: ProductVariantParent,
-  CollectionMenuItem: CollectionMenuItem,
   PageMenuItem: PageMenuItem,
   PageMenuItemPerformances: PageMenuItemPerformances,
-  PageMenuItemVirtual: PageMenuItemVirtual
+  PageMenuItemProgramming: PageMenuItemProgramming,
+  PageMenuItemVirtual: PageMenuItemVirtual,
+  PageMenuItemHidden: PageMenuItemHidden,
+  BlogMenuItem: BlogMenuItem
 }

@@ -19,9 +19,16 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      title: 'This is a JotForm (required for form to work properly)',
-      name: 'cognitoForm',
-      type: 'boolean'
+      title: 'Embed Type',
+      name: 'embedType',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Simple Iframe', value: 'iframe' },
+          { title: 'JotForm', value: 'jotForm' },
+          { title: 'Calendly Widget', value: 'calendly' }
+        ]
+      }
     }
   ],
   preview: {

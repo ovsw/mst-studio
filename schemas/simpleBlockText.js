@@ -10,7 +10,7 @@
  */
 export default {
   title: 'Block Text',
-  name: 'blockText',
+  name: 'simpleBlockText',
   type: 'array',
   of: [
     {
@@ -28,8 +28,7 @@ export default {
         // preference or highlighting by editors.
         decorators: [
           { title: 'Strong', value: 'strong' },
-          { title: 'Emphasis', value: 'em' },
-          { title: 'Code', value: 'code' }
+          { title: 'Emphasis', value: 'em' }
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: []

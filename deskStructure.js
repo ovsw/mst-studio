@@ -3,12 +3,12 @@ import S from '@sanity/desk-tool/structure-builder'
 
 import {
   ConfigMenu,
-  // ProductMenuItem,
-  // ProductVariantParent,
-  // CollectionMenuItem,
   PageMenuItem,
   PageMenuItemPerformances,
-  PageMenuItemVirtual
+  PageMenuItemProgramming,
+  PageMenuItemHidden,
+  PageMenuItemVirtual,
+  BlogMenuItem
 } from './structure/index'
 
 //
@@ -22,9 +22,12 @@ export default () =>
       ConfigMenu,
       PageMenuItem,
       PageMenuItemPerformances,
+      PageMenuItemProgramming,
       PageMenuItemVirtual,
+      PageMenuItemHidden,
+      BlogMenuItem
       // CollectionMenuItem,
       // ProductMenuItem,
       // ProductVariantParent,
-      ...S.documentTypeListItems()
+      // ...S.documentTypeListItems()
     ])

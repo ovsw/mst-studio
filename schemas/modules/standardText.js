@@ -1,9 +1,12 @@
 import React from 'react'
+import Emoji from 'a11y-react-emoji'
+const Icon = () => <Emoji style={{ fontSize: '2rem' }} symbol='📝' />
 
 export default {
-  title: 'Standard Text',
+  title: 'Rich Text',
   name: 'standardText',
   type: 'object',
+  icon: Icon,
   hidden: true,
   fields: [
     {
@@ -51,14 +54,28 @@ export default {
                 type: 'object',
                 fields: [
                   {
-                    title: 'URL',
+                    title: 'Link',
                     name: 'href',
-                    type: 'url'
+                    type: 'url',
+                    validation: Rule =>
+                      Rule.required().uri({ scheme: ['http', 'https', 'mailto', 'tel'], allowRelative: true })
                   }
                 ]
               }
             ]
           }
+        },
+        {
+          type: 'imageModule'
+        },
+        {
+          type: 'youtube'
+        },
+        {
+          type: 'ctaBlock'
+        },
+        {
+          type: 'iframeEmbed'
         }
       ]
     }
@@ -69,13 +86,15 @@ export default {
     },
     prepare ({ blocks }) {
       const block = (blocks || []).find(block => block._type === 'block')
+      const exceprt =
+      block
+        ? block.children.filter(child => child._type === 'span')
+          .map(span => span.text)
+          .join('')
+        : 'No title'
+
       return {
-        title: block
-          ? block.children
-            .filter(child => child._type === 'span')
-            .map(span => span.text)
-            .join('')
-          : 'No title'
+        title: `[Rich Text] ${exceprt}`
       }
     }
   }

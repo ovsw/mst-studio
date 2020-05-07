@@ -7,48 +7,42 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // We import object and document schemas
 import blockContent from './blockContent'
-import blockText from './blockText'
+import simpleBlockText from './simpleBlockText'
 import siteSettings from './siteSettings'
 
 // Content Types
-// import product from './types/product'
 import page from './types/page'
 import pagePerformance from './types/pagePerformance'
-import collection from './types/collection'
+import pageHidden from './types/pageHidden'
 import siteGlobal from './types/siteGlobal'
-import menus from './types/menus'
 import post from './types/post'
-// import variant from './types/variant'
 
 // Modules
 import externalLink from './modules/externalLink'
 import heroInnerModule from './modules/heroInnerModule'
-import iframeEmbed from './modules/iframeEmbed'
+import iframeEmbed from './rteModules/iframeEmbed'
 import internalLink from './modules/internalLink'
 import metaCard from './modules/metaCard'
 import social from './modules/social'
-// import nestedPages from './modules/nestedPages'
 import pageItem from './modules/pageItem'
 import pageModule from './modules/pageModule'
+import postModule from './modules/postModule'
 import pagePerformanceModule from './modules/pagePerformanceModule'
 import imageModule from './modules/imageModule'
-// import productGrid from './modules/productGrid'
+import imageWTextOverModule from './modules/imageWTextOverModule'
 import standardText from './modules/standardText'
+import simpleBlockTextEnhanced from './simpleBlockTextEnhanced'
 import moduleContent from './modules/moduleContent'
 
-// Product Modules
-// import productModule from './modules/productModule'
-// import shopifyProductModule from './modules/shopifyProductModule'
-// import shopifyVariantModule from './modules/shopifyVariantModule'
-// import variantModule from './modules/variantModule'
-// import defaultVariant from './modules/defaultVariant'
+// RTE Modules
+import ctaBlock from './rteModules/ctaBlock'
+import youtube from './rteModules/youtube'
 
 // GraphQL Tab Modules
 import globalContent from './tabs/globalContent'
 import pageContent from './tabs/pageContent'
+import postContent from './tabs/postContent'
 import pagePerformanceContent from './tabs/pagePerformanceContent'
-// import variantContent from './tabs/variantContent'
-// import productContent from './tabs/productContent'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -63,40 +57,33 @@ export default createSchema({
     siteGlobal,
     page,
     pagePerformance,
+    pageHidden,
     post,
-    menus,
-    collection,
-    // product,
-    // variant,
     // Modules
     externalLink,
     heroInnerModule,
     iframeEmbed,
     internalLink,
-    // productGrid,
     pageModule,
+    postModule,
     pagePerformanceModule,
-    // nestedPages,
     pageItem,
     social,
     standardText,
+    simpleBlockTextEnhanced,
     imageModule,
+    imageWTextOverModule,
     moduleContent,
     metaCard,
     blockContent,
-    blockText,
-    // Product Specific Modules
-    // productModule,
-    // shopifyProductModule,
-    // shopifyVariantModule,
-    // variantModule,
-    // defaultVariant,
-    // Grapqhl Tab sthings
+    simpleBlockText,
+    // Grapqhl Tabs things
     globalContent,
     pageContent,
-    pagePerformanceContent
-    // productContent,
-    // variantContent
+    postContent,
+    pagePerformanceContent,
+    ctaBlock,
+    youtube
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas

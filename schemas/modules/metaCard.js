@@ -22,11 +22,11 @@ export default {
     }
   ],
   fields: [
-    {
-      name: 'metaKeywords',
-      title: 'Meta Keywords',
-      type: 'string'
-    },
+    // {
+    //   name: 'metaKeywords',
+    //   title: 'Meta Keywords',
+    //   type: 'string'
+    // },
     {
       name: 'metaTitle',
       title: 'Meta Title (overrides default title)',
