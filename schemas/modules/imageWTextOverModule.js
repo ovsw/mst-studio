@@ -1,5 +1,5 @@
 export default {
-  title: 'Image With Text Over it',
+  title: 'Image With Text it',
   name: 'imageWTextOverModule',
   type: 'object',
   hidden: true,
@@ -59,7 +59,7 @@ export default {
         : 'No title'
 
       return {
-        title: `[Img w/ OverText] ${exceprt}`,
+        title: `[Img w/ Text] ${exceprt}`,
         media: image
       }
     }
