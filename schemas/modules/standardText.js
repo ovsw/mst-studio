@@ -69,6 +69,9 @@ export default {
           type: 'imageModule'
         },
         {
+          type: 'button'
+        },
+        {
           type: 'youtube'
         },
         {

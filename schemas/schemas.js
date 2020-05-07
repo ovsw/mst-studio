@@ -37,6 +37,7 @@ import moduleContent from './modules/moduleContent'
 // RTE Modules
 import ctaBlock from './rteModules/ctaBlock'
 import youtube from './rteModules/youtube'
+import button from './rteModules/button'
 
 // GraphQL Tab Modules
 import globalContent from './tabs/globalContent'
@@ -62,7 +63,6 @@ export default createSchema({
     // Modules
     externalLink,
     heroInnerModule,
-    iframeEmbed,
     internalLink,
     pageModule,
     postModule,
@@ -82,8 +82,11 @@ export default createSchema({
     pageContent,
     postContent,
     pagePerformanceContent,
+    // RTE
     ctaBlock,
-    youtube
+    iframeEmbed,
+    youtube,
+    button
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas

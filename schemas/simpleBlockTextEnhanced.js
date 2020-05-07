@@ -65,6 +65,9 @@ export default {
       }
     },
     {
+      type: 'button'
+    },
+    {
       type: 'youtube'
     },
     {
