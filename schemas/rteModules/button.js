@@ -1,10 +1,10 @@
-import { BsFillAspectRatioFill } from 'react-icons/bs'
+import { FaLink } from 'react-icons/fa'
 
 export default {
   title: 'Button',
   name: 'button',
   type: 'object',
-  icon: BsFillAspectRatioFill,
+  icon: FaLink,
   fields: [
     {
       name: 'buttonText',
@@ -36,14 +36,15 @@ export default {
   preview: {
     select: {
       media: 'icon',
-      text: 'text'
+      text: 'buttonText',
+      url: 'url'
     },
     prepare (selection) {
-      const { icon, text } = selection
-      const title = `[CTA Block] ${text}`
+      const { media, text, url } = selection
+      const title = `[Button] ${text} ${url}`
       return {
         title: title,
-        media: icon
+        media: media
       }
     }
 
