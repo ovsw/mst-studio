@@ -5,6 +5,24 @@ export default {
   hidden: true,
   fields: [
     {
+      name: 'theme',
+      title: 'Theme',
+      type: 'string',
+      validation: Rule => Rule.required('missing theme'),
+      options: {
+        list: [
+          {
+            title: 'Side by side',
+            value: 'sideBySide'
+          },
+          {
+            title: 'Overlapping',
+            value: 'overlapping'
+          }
+        ]
+      }
+    },
+    {
       name: 'layout',
       title: 'Layout',
       type: 'string',
