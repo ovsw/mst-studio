@@ -15,6 +15,7 @@ const OptionsIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='📑' />
 const QuestionIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='❓' />
 const TestimonialsIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🌟' />
 const TestimonialsIcon2 = () => <Emoji style={{ fontSize: '2rem' }} symbol='✨' />
+const QuoteIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='💲' />
 
 export const PageMenuItemProgramming = S.listItem()
   .title('Programming Pages')
@@ -123,12 +124,17 @@ export const PageMenuItemProgramming = S.listItem()
         S.documentListItem()
           .id('programmingTestimonials')
           .icon(TestimonialsIcon)
-          .title('Programming Testimonials')
+          .title('Testimonials')
           .schemaType('page'),
         S.documentListItem()
           .id('programmingStaffTestimonials')
           .icon(TestimonialsIcon2)
           .title('Staff Testimonials')
+          .schemaType('page'),
+        S.documentListItem()
+          .id('programmingQuote')
+          .icon(QuoteIcon)
+          .title('Get Program Quote')
           .schemaType('page')
       ])
   )

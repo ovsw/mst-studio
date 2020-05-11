@@ -18,12 +18,11 @@ import siteGlobal from './types/siteGlobal'
 import post from './types/post'
 
 // Modules
-import externalLink from './modules/externalLink'
 import heroInnerModule from './modules/heroInnerModule'
 import iframeEmbed from './rteModules/iframeEmbed'
-import internalLink from './modules/internalLink'
 import metaCard from './modules/metaCard'
 import social from './modules/social'
+import globalSettingsTab from './modules/globalSettingsTab'
 import pageItem from './modules/pageItem'
 import pageModule from './modules/pageModule'
 import postModule from './modules/postModule'
@@ -33,6 +32,13 @@ import imageWTextOverModule from './modules/imageWTextOverModule'
 import standardText from './modules/standardText'
 import simpleBlockTextEnhanced from './simpleBlockTextEnhanced'
 import moduleContent from './modules/moduleContent'
+
+// nav
+import menus from './types/menus'
+import internalLink from './modules/nav/internalLink'
+import internalLinkWchildren from './modules/nav/internalLinkWChildren'
+import externalLink from './modules/nav/externalLink'
+import externalLinkWChildren from './modules/nav/externalLinkWChildren'
 
 // RTE Modules
 import ctaBlock from './rteModules/ctaBlock'
@@ -60,15 +66,20 @@ export default createSchema({
     pagePerformance,
     pageHidden,
     post,
-    // Modules
-    externalLink,
-    heroInnerModule,
+    // menus
+    menus,
     internalLink,
+    internalLinkWchildren,
+    externalLink,
+    externalLinkWChildren,
+    // Modules
+    heroInnerModule,
     pageModule,
     postModule,
     pagePerformanceModule,
     pageItem,
     social,
+    globalSettingsTab,
     standardText,
     simpleBlockTextEnhanced,
     imageModule,

@@ -6,7 +6,7 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Link CTA',
+      title: 'Folder Name',
       type: 'string'
     },
     {

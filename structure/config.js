@@ -20,6 +20,18 @@ export const ConfigMenu = S.listItem()
         //       .params({ type: 'menus' })
         //   ),
         S.documentListItem()
+          .title('Performances Menu')
+          .id('menusPerformances')
+          .schemaType('menus'),
+        S.documentListItem()
+          .title('Programming Menu')
+          .id('menusProgramming')
+          .schemaType('menus'),
+        S.documentListItem()
+          .title('Live Menu')
+          .id('menusLive')
+          .schemaType('menus'),
+        S.documentListItem()
           .title('Global')
           .id('siteGlobal')
           .schemaType('siteGlobal')

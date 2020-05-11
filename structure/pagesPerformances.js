@@ -8,6 +8,7 @@ const BookIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='📚' />
 const LandingPageIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🛬' />
 const QuestionIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='❓' />
 const TestimonialsIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🌟' />
+const QuoteIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='💲' />
 
 export const PageMenuItemPerformances = S.listItem()
   .title('Performances Pages')
@@ -45,7 +46,12 @@ export const PageMenuItemPerformances = S.listItem()
         S.documentListItem()
           .id('performancesTestimonials')
           .icon(TestimonialsIcon)
-          .title('Performances Testimonials')
+          .title('Testimonials')
+          .schemaType('page'),
+        S.documentListItem()
+          .id('performancesQuote')
+          .icon(QuoteIcon)
+          .title('Get Performance Quote')
           .schemaType('page')
       ])
   )
