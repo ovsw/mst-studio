@@ -29,7 +29,7 @@ export default {
         Rule.required().error('missing referece to internal page')
     },
     {
-      name: 'children',
+      name: 'subItems',
       title: 'Sub-items',
       type: 'array',
       of: [

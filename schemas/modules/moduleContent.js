@@ -14,6 +14,12 @@ export default {
     //   type: 'productGrid'
     // },
     {
+      type: 'videoHero'
+    },
+    {
+      type: 'casettes'
+    },
+    {
       type: 'heroInnerModule'
     },
     {

@@ -15,8 +15,8 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'string',
-      hidden: true
+      type: 'string'
+      // hidden: true
     },
     // {
     //   name: 'slug',

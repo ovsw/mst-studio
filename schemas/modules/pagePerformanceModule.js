@@ -38,7 +38,7 @@ export default {
             value: 'custom'
           },
           {
-            title: 'Performa Judaism',
+            title: 'Perform Judaism',
             value: 'judaism'
           }
         ]
@@ -207,12 +207,16 @@ export default {
     {
       name: 'hollidays',
       type: 'array',
-      title: 'Hollidays',
+      title: 'Holidays',
       description: 'Add keywords that describes your blog.',
       of: [{ type: 'string' }],
       options: {
         layout: 'tags',
         list: [
+          {
+            title: 'none',
+            value: 'none'
+          },
           {
             title: 'Chanukah',
             value: 'chanukah'

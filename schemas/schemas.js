@@ -32,6 +32,9 @@ import imageWTextOverModule from './modules/imageWTextOverModule'
 import standardText from './modules/standardText'
 import simpleBlockTextEnhanced from './simpleBlockTextEnhanced'
 import moduleContent from './modules/moduleContent'
+import videoHero from './modules/videoHero'
+import casettes from './modules/casettes'
+import casette from './modules/casette'
 
 // nav
 import menus from './types/menus'
@@ -88,6 +91,9 @@ export default createSchema({
     metaCard,
     blockContent,
     simpleBlockText,
+    videoHero,
+    casettes,
+    casette,
     // Grapqhl Tabs things
     globalContent,
     pageContent,
