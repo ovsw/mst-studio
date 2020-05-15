@@ -8,7 +8,8 @@ import {
   PageMenuItemProgramming,
   PageMenuItemHidden,
   PageMenuItemVirtual,
-  BlogMenuItem
+  BlogMenuItem,
+  TestimonialsMenuItem
 } from './structure/index'
 
 //
@@ -25,7 +26,8 @@ export default () =>
       PageMenuItemProgramming,
       PageMenuItemVirtual,
       PageMenuItemHidden,
-      BlogMenuItem
+      BlogMenuItem,
+      TestimonialsMenuItem
       // CollectionMenuItem,
       // ProductMenuItem,
       // ProductVariantParent,

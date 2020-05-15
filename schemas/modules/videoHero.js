@@ -3,7 +3,7 @@ import Emoji from 'a11y-react-emoji'
 const Icon = () => <Emoji style={{ fontSize: '2rem' }} symbol='📺' />
 
 export default {
-  title: 'Video Hero Module',
+  title: 'Video Hero',
   name: 'videoHero',
   type: 'object',
   icon: Icon,

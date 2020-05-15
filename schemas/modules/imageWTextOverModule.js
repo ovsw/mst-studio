@@ -1,5 +1,5 @@
 export default {
-  title: 'Image With Text it',
+  title: 'Image With Text',
   name: 'imageWTextOverModule',
   type: 'object',
   hidden: true,

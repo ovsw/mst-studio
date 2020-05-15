@@ -20,6 +20,9 @@ export default {
       type: 'casettes'
     },
     {
+      type: 'testimonials'
+    },
+    {
       type: 'heroInnerModule'
     },
     {

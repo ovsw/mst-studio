@@ -16,6 +16,7 @@ import pagePerformance from './types/pagePerformance'
 import pageHidden from './types/pageHidden'
 import siteGlobal from './types/siteGlobal'
 import post from './types/post'
+import testimonial from './types/testimonial'
 
 // Modules
 import heroInnerModule from './modules/heroInnerModule'
@@ -35,6 +36,7 @@ import moduleContent from './modules/moduleContent'
 import videoHero from './modules/videoHero'
 import casettes from './modules/casettes'
 import casette from './modules/casette'
+import testimonials from './modules/testimonials'
 
 // nav
 import menus from './types/menus'
@@ -69,6 +71,7 @@ export default createSchema({
     pagePerformance,
     pageHidden,
     post,
+    testimonial,
     // menus
     menus,
     internalLink,
@@ -94,6 +97,7 @@ export default createSchema({
     videoHero,
     casettes,
     casette,
+    testimonials,
     // Grapqhl Tabs things
     globalContent,
     pageContent,
