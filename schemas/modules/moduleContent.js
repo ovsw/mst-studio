@@ -32,7 +32,7 @@ export default {
       type: 'imageWTextOverModule'
     },
     {
-      type: 'pricingTable'
+      type: 'pricingTableRef'
     }
     // {
     //   type: 'iframeEmbed'

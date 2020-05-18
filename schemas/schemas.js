@@ -17,6 +17,7 @@ import pageHidden from './types/pageHidden'
 import siteGlobal from './types/siteGlobal'
 import post from './types/post'
 import testimonial from './types/testimonial'
+import pricingTable from './types/pricingTable'
 
 // Modules
 import heroInnerModule from './modules/heroInnerModule'
@@ -39,8 +40,8 @@ import casette from './modules/casette'
 import sectionWithItems from './modules/sectionWithItems'
 import sectionItem from './modules/sectionItem'
 import testimonials from './modules/testimonials'
-import pricingTable from './modules/pricingTable'
 import pricingTableRow from './modules/pricingTableRow'
+import pricingTableRef from './modules/pricingTableRef'
 
 // nav
 import menus from './types/menus'
@@ -76,6 +77,8 @@ export default createSchema({
     pageHidden,
     post,
     testimonial,
+    pricingTable,
+    pricingTableRow,
     // menus
     menus,
     internalLink,
@@ -104,8 +107,7 @@ export default createSchema({
     sectionWithItems,
     sectionItem,
     testimonials,
-    pricingTable,
-    pricingTableRow,
+    pricingTableRef,
     // Grapqhl Tabs things
     globalContent,
     pageContent,

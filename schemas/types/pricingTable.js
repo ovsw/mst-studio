@@ -4,8 +4,8 @@ const Icon = () => <Emoji style={{ fontSize: '2rem' }} symbol='💵' />
 
 export default {
   title: 'Pricing Table',
-  name: 'pricingTableRef',
-  type: 'object',
+  name: 'pricingTable',
+  type: 'document',
   icon: Icon,
   hidden: true,
   fields: [

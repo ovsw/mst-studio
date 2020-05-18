@@ -9,7 +9,8 @@ import {
   PageMenuItemHidden,
   PageMenuItemVirtual,
   BlogMenuItem,
-  TestimonialsMenuItem
+  TestimonialsMenuItem,
+  PricingTablesMenuItem
 } from './structure/index'
 
 //
@@ -21,13 +22,16 @@ export default () =>
     .title('Content')
     .items([
       ConfigMenu,
+      S.divider(),
       PageMenuItem,
       PageMenuItemPerformances,
       PageMenuItemProgramming,
       PageMenuItemVirtual,
       PageMenuItemHidden,
       BlogMenuItem,
-      TestimonialsMenuItem
+      S.divider(),
+      TestimonialsMenuItem,
+      PricingTablesMenuItem
       // CollectionMenuItem,
       // ProductMenuItem,
       // ProductVariantParent,

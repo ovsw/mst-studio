@@ -6,6 +6,7 @@ import { PageMenuItemVirtual } from './pagesVirtual.js'
 import { PageMenuItemHidden } from './pagesHidden.js'
 import { BlogMenuItem } from './posts.js'
 import { TestimonialsMenuItem } from './testimonials'
+import { PricingTablesMenuItem } from './pricingTables'
 
 module.exports = {
   ConfigMenu: ConfigMenu,
@@ -15,5 +16,6 @@ module.exports = {
   PageMenuItemVirtual: PageMenuItemVirtual,
   PageMenuItemHidden: PageMenuItemHidden,
   BlogMenuItem: BlogMenuItem,
-  TestimonialsMenuItem: TestimonialsMenuItem
+  TestimonialsMenuItem: TestimonialsMenuItem,
+  PricingTablesMenuItem: PricingTablesMenuItem
 }
