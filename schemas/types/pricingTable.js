@@ -54,7 +54,7 @@ export default {
     },
     prepare ({ title, icon }) {
       return {
-        title: `[Pricing Table] ${title}`,
+        title: `${title}`,
         media: icon
       }
     }
