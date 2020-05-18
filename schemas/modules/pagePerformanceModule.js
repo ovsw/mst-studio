@@ -49,7 +49,6 @@ export default {
       name: 'ageRange',
       type: 'array',
       title: 'Age Range',
-      description: 'Add keywords that describes your blog.',
       of: [{ type: 'string' }],
       options: {
         layout: 'tags',
@@ -82,7 +81,6 @@ export default {
       name: 'noOfParticipants',
       type: 'array',
       title: 'No. of Participants',
-      description: 'Add keywords that describes your blog.',
       of: [{ type: 'string' }],
       options: {
         layout: 'tags',
@@ -115,7 +113,6 @@ export default {
       name: 'themes',
       type: 'array',
       title: 'Themes',
-      description: 'Add keywords that describes your blog.',
       of: [{ type: 'string' }],
       options: {
         layout: 'tags',
@@ -208,7 +205,6 @@ export default {
       name: 'hollidays',
       type: 'array',
       title: 'Holidays',
-      description: 'Add keywords that describes your blog.',
       of: [{ type: 'string' }],
       options: {
         layout: 'tags',

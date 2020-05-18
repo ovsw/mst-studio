@@ -36,7 +36,11 @@ import moduleContent from './modules/moduleContent'
 import videoHero from './modules/videoHero'
 import casettes from './modules/casettes'
 import casette from './modules/casette'
+import sectionWithItems from './modules/sectionWithItems'
+import sectionItem from './modules/sectionItem'
 import testimonials from './modules/testimonials'
+import pricingTable from './modules/pricingTable'
+import pricingTableRow from './modules/pricingTableRow'
 
 // nav
 import menus from './types/menus'
@@ -97,7 +101,11 @@ export default createSchema({
     videoHero,
     casettes,
     casette,
+    sectionWithItems,
+    sectionItem,
     testimonials,
+    pricingTable,
+    pricingTableRow,
     // Grapqhl Tabs things
     globalContent,
     pageContent,

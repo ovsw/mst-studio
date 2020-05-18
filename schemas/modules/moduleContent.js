@@ -20,6 +20,9 @@ export default {
       type: 'casettes'
     },
     {
+      type: 'sectionWithItems'
+    },
+    {
       type: 'testimonials'
     },
     {
@@ -27,6 +30,9 @@ export default {
     },
     {
       type: 'imageWTextOverModule'
+    },
+    {
+      type: 'pricingTable'
     }
     // {
     //   type: 'iframeEmbed'
