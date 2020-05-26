@@ -7,7 +7,7 @@ export default {
   name: 'standardText',
   type: 'object',
   icon: Icon,
-  hidden: true,
+  // hidden: true,
   fields: [
     {
       name: 'text',
@@ -34,18 +34,17 @@ export default {
             decorators: [
               { value: 'strong', title: 'Strong' },
               { value: 'italic', title: 'Italic' },
-              { value: 'underline', title: 'Underline' },
-              { value: 'code', title: 'Code' },
-              {
-                title: 'Inline Snippet',
-                value: 'tick',
-                blockEditor: {
-                  icon: () => 'T',
-                  render: (props) => (
-                    <span style={{ backgroundColor: '#ccc', fontWeight: '300' }}>{props.children}</span>
-                  )
-                }
-              }
+              { value: 'underline', title: 'Underline' }
+              // {
+              //   title: 'Inline Snippet',
+              //   value: 'tick',
+              //   blockEditor: {
+              //     icon: () => 'T',
+              //     render: (props) => (
+              //       <span style={{ backgroundColor: '#ccc', fontWeight: '300' }}>{props.children}</span>
+              //     )
+              //   }
+              // }
             ],
             annotations: [
               {
@@ -69,6 +68,9 @@ export default {
           type: 'imageModule'
         },
         {
+          type: 'imgTextColumns'
+        },
+        {
           type: 'button'
         },
         {
@@ -79,6 +81,9 @@ export default {
         },
         {
           type: 'iframeEmbed'
+        },
+        {
+          type: 'commonTextRef'
         }
       ]
     }

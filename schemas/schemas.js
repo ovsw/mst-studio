@@ -8,6 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // We import object and document schemas
 import blockContent from './blockContent'
 import simpleBlockText from './simpleBlockText'
+import simpleBlockTextColumn from './simpleBlockTextColumn'
 import siteSettings from './siteSettings'
 
 // Content Types
@@ -18,6 +19,7 @@ import siteGlobal from './types/siteGlobal'
 import post from './types/post'
 import testimonial from './types/testimonial'
 import pricingTable from './types/pricingTable'
+import commonText from './types/commonText'
 
 // Modules
 import heroInnerModule from './modules/heroInnerModule'
@@ -29,7 +31,6 @@ import pageItem from './modules/pageItem'
 import pageModule from './modules/pageModule'
 import postModule from './modules/postModule'
 import pagePerformanceModule from './modules/pagePerformanceModule'
-import imageModule from './modules/imageModule'
 import imageWTextOverModule from './modules/imageWTextOverModule'
 import standardText from './modules/standardText'
 import simpleBlockTextEnhanced from './simpleBlockTextEnhanced'
@@ -54,6 +55,9 @@ import externalLinkWChildren from './modules/nav/externalLinkWChildren'
 import ctaBlock from './rteModules/ctaBlock'
 import youtube from './rteModules/youtube'
 import button from './rteModules/button'
+import commonTextRef from './rteModules/commonTextRef'
+import imageModule from './rteModules/imageModule'
+import imgTextColumns from './rteModules/imgTextColumns'
 
 // GraphQL Tab Modules
 import globalContent from './tabs/globalContent'
@@ -79,6 +83,7 @@ export default createSchema({
     testimonial,
     pricingTable,
     pricingTableRow,
+    commonText,
     // menus
     menus,
     internalLink,
@@ -94,13 +99,15 @@ export default createSchema({
     social,
     globalSettingsTab,
     standardText,
+    simpleBlockText,
+    simpleBlockTextColumn,
     simpleBlockTextEnhanced,
     imageModule,
+    imgTextColumns,
     imageWTextOverModule,
     moduleContent,
     metaCard,
     blockContent,
-    simpleBlockText,
     videoHero,
     casettes,
     casette,
@@ -108,6 +115,7 @@ export default createSchema({
     sectionItem,
     testimonials,
     pricingTableRef,
+    commonTextRef,
     // Grapqhl Tabs things
     globalContent,
     pageContent,

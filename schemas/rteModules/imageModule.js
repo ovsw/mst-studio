@@ -52,7 +52,7 @@ export default {
     prepare (selection) {
       const { media, caption, alt, layout } = selection
       const titleText = caption || alt
-      const title = `[${layout}] ${titleText}`
+      const title = `[${layout}] ${titleText.substring(0, 40)}`
       return {
         title: title,
         media: media

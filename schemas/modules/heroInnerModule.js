@@ -21,9 +21,10 @@ export default {
     },
     {
       name: 'caption',
-      title: 'Image Caption',
+      title: 'ALT Text',
+      description: 'For SEO and screen-readers.',
       type: 'string',
-      validation: Rule => Rule.required('missing hero module image caption')
+      validation: Rule => Rule.required('missing hero module image ALT text')
     }
   ],
   preview: {

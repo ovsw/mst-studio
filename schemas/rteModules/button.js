@@ -43,7 +43,7 @@ export default {
       const { media, text, url } = selection
       const title = `[Button] ${text} ${url}`
       return {
-        title: title,
+        title: title.substring(0, 40),
         media: media
       }
     }

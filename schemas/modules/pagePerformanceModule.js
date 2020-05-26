@@ -15,6 +15,15 @@ export default {
   ],
   fields: [
     {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+      description: 'this image appears on the performance\'s card in the performance wizard',
+      options: {
+        hotspot: true
+      }
+    },
+    {
       name: 'performanceType',
       title: 'Performance Type',
       type: 'array',

@@ -1,8 +1,6 @@
 import React from 'react'
 import Emoji from 'a11y-react-emoji'
 
-import Tabs from 'sanity-plugin-tabs'
-
 const Icon = () => (<Emoji style={{ fontSize: '2rem' }} symbol='🌎' />)
 
 export default {
@@ -14,13 +12,13 @@ export default {
   icon: Icon,
   fields: [
     {
-      name: "content",
-      type: "globalContent",
+      name: 'content',
+      type: 'globalContent'
     }
   ],
   preview: {
     select: {},
-    prepare() {
+    prepare () {
       return Object.assign({}, {
         title: 'Global Settings'
       })

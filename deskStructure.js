@@ -10,7 +10,8 @@ import {
   PageMenuItemVirtual,
   BlogMenuItem,
   TestimonialsMenuItem,
-  PricingTablesMenuItem
+  PricingTablesMenuItem,
+  CommonTextsMenuItem
 } from './structure/index'
 
 //
@@ -31,7 +32,8 @@ export default () =>
       BlogMenuItem,
       S.divider(),
       TestimonialsMenuItem,
-      PricingTablesMenuItem
+      PricingTablesMenuItem,
+      CommonTextsMenuItem
       // CollectionMenuItem,
       // ProductMenuItem,
       // ProductVariantParent,
