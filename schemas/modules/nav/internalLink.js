@@ -22,7 +22,9 @@ export default {
       title: 'Link',
       type: 'reference',
       to: [
-        { type: 'page' }
+        { type: 'page' },
+        { type: 'pageWizard' }
+
         // { type: 'product' }
       ],
       validation: Rule =>

@@ -21,7 +21,8 @@ export default {
       description: 'this image appears on the performance\'s card in the performance wizard',
       options: {
         hotspot: true
-      }
+      },
+      validation: Rule => Rule.required()
     },
     {
       name: 'performanceType',
@@ -72,7 +73,7 @@ export default {
           },
           {
             title: 'Grades 3-6',
-            value: 'g3-6'
+            value: 'g36'
           },
           {
             title: 'Grades 7+',
@@ -126,10 +127,6 @@ export default {
       options: {
         layout: 'tags',
         list: [
-          {
-            title: 'Arts & History',
-            value: 'arts-history'
-          },
           {
             title: 'Arts & Culture',
             value: 'arts-culture'
@@ -203,6 +200,10 @@ export default {
             value: 'superhero'
           },
           {
+            title: 'Technology',
+            value: 'technology'
+          },
+          {
             title: 'Women\'s Empowerment',
             value: 'women'
           }
@@ -249,10 +250,6 @@ export default {
           {
             title: 'Independence Day',
             value: 'independence-day'
-          },
-          {
-            title: 'Marthin Luther King Day',
-            value: 'mlk-day'
           },
           {
             title: 'Passover',

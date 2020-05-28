@@ -22,10 +22,15 @@ export const PageMenuItemPerformances = S.listItem()
           .title('Performances - Landing Page')
           .icon(LandingPageIcon)
           .schemaType('page'),
+        // S.documentListItem()
+        //   .id('findYourPerformance')
+        //   .title('Find your Performance Page')
+        //   .schemaType('page')
+        //   .icon(FindIcon),
         S.documentListItem()
-          .id('findYourPerformance')
+          .id('findYourPerformanceWizard')
           .title('Find your Performance Page')
-          .schemaType('page')
+          .schemaType('pageWizard')
           .icon(FindIcon),
         S.documentListItem()
           .id('performanceDirectory')

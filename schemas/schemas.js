@@ -14,6 +14,7 @@ import siteSettings from './siteSettings'
 // Content Types
 import page from './types/page'
 import pagePerformance from './types/pagePerformance'
+import pageWizard from './types/pageWizard'
 import pageHidden from './types/pageHidden'
 import siteGlobal from './types/siteGlobal'
 import post from './types/post'
@@ -31,6 +32,7 @@ import pageItem from './modules/pageItem'
 import pageModule from './modules/pageModule'
 import postModule from './modules/postModule'
 import pagePerformanceModule from './modules/pagePerformanceModule'
+import pageWizardModule from './modules/pageWizardModule'
 import imageWTextOverModule from './modules/imageWTextOverModule'
 import standardText from './modules/standardText'
 import simpleBlockTextEnhanced from './simpleBlockTextEnhanced'
@@ -64,6 +66,7 @@ import globalContent from './tabs/globalContent'
 import pageContent from './tabs/pageContent'
 import postContent from './tabs/postContent'
 import pagePerformanceContent from './tabs/pagePerformanceContent'
+import pageWizardContent from './tabs/pageWizardContent'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -78,6 +81,7 @@ export default createSchema({
     siteGlobal,
     page,
     pagePerformance,
+    pageWizard,
     pageHidden,
     post,
     testimonial,
@@ -95,6 +99,7 @@ export default createSchema({
     pageModule,
     postModule,
     pagePerformanceModule,
+    pageWizardModule,
     pageItem,
     social,
     globalSettingsTab,
@@ -119,8 +124,9 @@ export default createSchema({
     // Grapqhl Tabs things
     globalContent,
     pageContent,
-    postContent,
     pagePerformanceContent,
+    pageWizardContent,
+    postContent,
     // RTE
     ctaBlock,
     iframeEmbed,
