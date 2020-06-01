@@ -11,7 +11,8 @@ import {
   BlogMenuItem,
   TestimonialsMenuItem,
   PricingTablesMenuItem,
-  CommonTextsMenuItem
+  CommonTextsMenuItem,
+  AuthorsMenuItem
 } from './structure/index'
 
 //
@@ -33,7 +34,8 @@ export default () =>
       S.divider(),
       TestimonialsMenuItem,
       PricingTablesMenuItem,
-      CommonTextsMenuItem
+      CommonTextsMenuItem,
+      AuthorsMenuItem
       // CollectionMenuItem,
       // ProductMenuItem,
       // ProductVariantParent,

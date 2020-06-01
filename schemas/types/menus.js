@@ -36,8 +36,9 @@ export default {
       of: [
         { type: 'internalLink' },
         { type: 'internalLinkWChildren' },
-        { type: 'externalLink' },
-        { type: 'externalLinkWChildren' }
+        { type: 'internalLinkWSlug' }
+        // { type: 'externalLink' },
+        // { type: 'externalLinkWChildren' }
       ]
     }
   ],

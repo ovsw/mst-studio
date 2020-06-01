@@ -1,7 +1,6 @@
-
 export default {
-  name: 'page',
-  title: 'Page',
+  name: 'author',
+  title: 'Author',
   type: 'document',
   liveEdit: false,
   // You probably want to uncomment the next line once you've made the pages documents in the Studio. This will remove the pages document type from the create-menus.
@@ -9,13 +8,14 @@ export default {
   fields: [
     {
       name: 'content',
-      type: 'pageContent'
+      type: 'authorContent'
     }
   ],
   preview: {
     select: {
-      title: 'content.main.title',
-      subtitle: 'heroText'
+      title: 'content.main.name',
+      subtitle: 'content.main.role',
+      media: 'content.main.image'
     }
   }
 }

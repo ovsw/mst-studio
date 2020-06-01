@@ -1,18 +1,18 @@
 import React from 'react'
 import Emoji from 'a11y-react-emoji'
 
-const Icon = () => (<Emoji style={{ fontSize: '2rem' }} symbol='📂' />)
+const Icon = () => (<Emoji style={{ fontSize: '2rem' }} symbol='🎯' />)
 
 export default {
-  title: 'Internal Link w/ Children',
-  name: 'internalLinkWChildren',
+  title: 'Internal Link w/ Slug',
+  name: 'internalLinkWSlug',
   type: 'object',
   icon: Icon,
   // hidden: true,
   fields: [
     {
       name: 'title',
-      title: 'Menu Item Title',
+      title: 'Menu item title',
       type: 'string',
       validation: Rule =>
         Rule.required().error('missing title')
@@ -20,22 +20,9 @@ export default {
     {
       name: 'link',
       title: 'Link',
-      type: 'reference',
-      to: [
-        { type: 'page' }
-      ],
+      type: 'string',
       validation: Rule =>
         Rule.required().error('missing referece to internal page')
-    },
-    {
-      name: 'subItems',
-      title: 'Sub-items',
-      type: 'array',
-      of: [
-        { type: 'internalLink' }
-      ],
-      validation: Rule =>
-        Rule.required().error('must have at least one child')
     }
   ],
   preview: {
@@ -45,7 +32,7 @@ export default {
     },
     prepare ({ title, media }) {
       return {
-        title: `${title} [+] `,
+        title: `${title}`,
         media
       }
     }

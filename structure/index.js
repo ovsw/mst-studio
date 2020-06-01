@@ -8,6 +8,7 @@ import { BlogMenuItem } from './posts.js'
 import { TestimonialsMenuItem } from './testimonials'
 import { PricingTablesMenuItem } from './pricingTables'
 import { CommonTextsMenuItem } from './commonTexts'
+import { AuthorsMenuItem } from './authors'
 
 module.exports = {
   ConfigMenu: ConfigMenu,
@@ -19,5 +20,6 @@ module.exports = {
   BlogMenuItem: BlogMenuItem,
   TestimonialsMenuItem: TestimonialsMenuItem,
   PricingTablesMenuItem: PricingTablesMenuItem,
-  CommonTextsMenuItem: CommonTextsMenuItem
+  CommonTextsMenuItem: CommonTextsMenuItem,
+  AuthorsMenuItem: AuthorsMenuItem
 }

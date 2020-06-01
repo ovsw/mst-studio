@@ -21,6 +21,7 @@ import post from './types/post'
 import testimonial from './types/testimonial'
 import pricingTable from './types/pricingTable'
 import commonText from './types/commonText'
+import author from './types/author'
 
 // Modules
 import heroInnerModule from './modules/heroInnerModule'
@@ -30,6 +31,7 @@ import social from './modules/social'
 import globalSettingsTab from './modules/globalSettingsTab'
 import pageItem from './modules/pageItem'
 import pageModule from './modules/pageModule'
+import authorModule from './modules/authorModule'
 import postModule from './modules/postModule'
 import pagePerformanceModule from './modules/pagePerformanceModule'
 import pageWizardModule from './modules/pageWizardModule'
@@ -50,8 +52,9 @@ import pricingTableRef from './modules/pricingTableRef'
 import menus from './types/menus'
 import internalLink from './modules/nav/internalLink'
 import internalLinkWchildren from './modules/nav/internalLinkWChildren'
-import externalLink from './modules/nav/externalLink'
-import externalLinkWChildren from './modules/nav/externalLinkWChildren'
+import internalLinkWSlug from './modules/nav/internalLinkWSlug'
+// import externalLink from './modules/nav/externalLink'
+// import externalLinkWChildren from './modules/nav/externalLinkWChildren'
 
 // RTE Modules
 import ctaBlock from './rteModules/ctaBlock'
@@ -67,6 +70,7 @@ import pageContent from './tabs/pageContent'
 import postContent from './tabs/postContent'
 import pagePerformanceContent from './tabs/pagePerformanceContent'
 import pageWizardContent from './tabs/pageWizardContent'
+import authorContent from './tabs/authorContent'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -79,6 +83,7 @@ export default createSchema({
     // in the studio.
     siteSettings,
     siteGlobal,
+    // documents
     page,
     pagePerformance,
     pageWizard,
@@ -86,23 +91,19 @@ export default createSchema({
     post,
     testimonial,
     pricingTable,
-    pricingTableRow,
     commonText,
-    // menus
-    menus,
-    internalLink,
-    internalLinkWchildren,
-    externalLink,
-    externalLinkWChildren,
+    author,
+    // components
+    pricingTableRow,
     // Modules
     heroInnerModule,
     pageModule,
+    authorModule,
     postModule,
     pagePerformanceModule,
     pageWizardModule,
     pageItem,
     social,
-    globalSettingsTab,
     standardText,
     simpleBlockText,
     simpleBlockTextColumn,
@@ -121,17 +122,27 @@ export default createSchema({
     testimonials,
     pricingTableRef,
     commonTextRef,
-    // Grapqhl Tabs things
+    // tabs
     globalContent,
     pageContent,
     pagePerformanceContent,
     pageWizardContent,
     postContent,
+    authorContent,
+    // tab contents
+    globalSettingsTab,
     // RTE
     ctaBlock,
     iframeEmbed,
     youtube,
-    button
+    button,
+    // nav
+    menus,
+    internalLink,
+    internalLinkWchildren,
+    internalLinkWSlug
+    // externalLink,
+    // externalLinkWChildren,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
