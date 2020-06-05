@@ -30,12 +30,13 @@ export default () =>
       PageMenuItemProgramming,
       PageMenuItemVirtual,
       PageMenuItemHidden,
+      S.divider(),
       BlogMenuItem,
+      AuthorsMenuItem,
       S.divider(),
       TestimonialsMenuItem,
       PricingTablesMenuItem,
-      CommonTextsMenuItem,
-      AuthorsMenuItem
+      CommonTextsMenuItem
       // CollectionMenuItem,
       // ProductMenuItem,
       // ProductVariantParent,

@@ -23,7 +23,8 @@ export default {
           { title: 'Performances', value: 'performances' },
           { title: 'Programming', value: 'programming' },
           { title: 'Families', value: 'families' },
-          { title: 'Virtual', value: 'virtual' }
+          { title: 'Virtual', value: 'virtual' },
+          { title: 'Staff', value: 'staff' }
         ]
       }
     },

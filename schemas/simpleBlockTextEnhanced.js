@@ -77,6 +77,9 @@ export default {
     },
     {
       type: 'iframeEmbed'
+    },
+    {
+      type: 'localFile'
     }
   ]
 }

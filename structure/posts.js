@@ -5,7 +5,7 @@ import Emoji from 'a11y-react-emoji'
 const BlogIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='📰' />
 
 export const BlogMenuItem = S.listItem()
-  .title('Blog pages')
+  .title('Blog Posts')
   .icon(BlogIcon)
   .child(
     S.documentTypeList('post')

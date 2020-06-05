@@ -3,7 +3,7 @@ import { FaCode } from 'react-icons/fa'
 export default {
   name: 'iframeEmbed',
   type: 'object',
-  title: 'Iframe Embed (forms, etc)',
+  title: 'Iframe Embed (forms, maps etc)',
   icon: FaCode,
   fields: [
     {
@@ -14,6 +14,7 @@ export default {
     },
     {
       title: 'Embed Code',
+      description: 'For JotForm forms, just paste in the link to the form, eg: https://www.jotform.com/201425300118034 do NOT paste the embed code!',
       name: 'code',
       type: 'text',
       validation: Rule => Rule.required()
@@ -34,6 +35,11 @@ export default {
   preview: {
     select: {
       title: 'title'
+    },
+    prepare ({ title }) {
+      return {
+        title: title.substring(0, 40)
+      }
     }
   }
 }

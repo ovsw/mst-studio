@@ -53,7 +53,7 @@ export default {
     },
     prepare (selection) {
       const { icon, text } = selection
-      const title = `[CTA Block] ${text.substring(0, 40)}`
+      const title = `[CTA] ${text.substring(0, 30)}`
       return {
         title: title,
         media: icon

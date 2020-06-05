@@ -63,6 +63,8 @@ import button from './rteModules/button'
 import commonTextRef from './rteModules/commonTextRef'
 import imageModule from './rteModules/imageModule'
 import imgTextColumns from './rteModules/imgTextColumns'
+import pullQuote from './rteModules/pullQuote'
+import localFile from './rteModules/localFile'
 
 // GraphQL Tab Modules
 import globalContent from './tabs/globalContent'
@@ -110,6 +112,7 @@ export default createSchema({
     simpleBlockTextEnhanced,
     imageModule,
     imgTextColumns,
+    pullQuote,
     imageWTextOverModule,
     moduleContent,
     metaCard,
@@ -136,6 +139,7 @@ export default createSchema({
     iframeEmbed,
     youtube,
     button,
+    localFile,
     // nav
     menus,
     internalLink,

@@ -5,7 +5,7 @@ import Emoji from 'a11y-react-emoji'
 const Icon = () => <Emoji style={{ fontSize: '2rem' }} symbol='✍' />
 
 export const AuthorsMenuItem = S.listItem()
-  .title('Authors')
+  .title('Blog Authors')
   .icon(Icon)
   .child(
     S.documentTypeList('author')

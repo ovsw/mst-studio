@@ -37,6 +37,13 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      name: 'author',
+      title: 'Author',
+      type: 'reference',
+      to: [{ type: 'author' }]
+      // validation: Rule => Rule.required()
+    },
+    {
       name: 'excerpt',
       title: 'Excerpt',
       type: 'simpleBlockText'

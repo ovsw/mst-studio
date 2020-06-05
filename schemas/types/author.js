@@ -1,6 +1,6 @@
 export default {
   name: 'author',
-  title: 'Author',
+  title: 'Block Author',
   type: 'document',
   liveEdit: false,
   // You probably want to uncomment the next line once you've made the pages documents in the Studio. This will remove the pages document type from the create-menus.
