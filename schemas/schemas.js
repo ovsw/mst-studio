@@ -22,6 +22,7 @@ import testimonial from './types/testimonial'
 import pricingTable from './types/pricingTable'
 import commonText from './types/commonText'
 import author from './types/author'
+import redirects from './types/redirects'
 
 // Modules
 import heroInnerModule from './modules/heroInnerModule'
@@ -47,6 +48,7 @@ import sectionItem from './modules/sectionItem'
 import testimonials from './modules/testimonials'
 import pricingTableRow from './modules/pricingTableRow'
 import pricingTableRef from './modules/pricingTableRef'
+import redirect from './modules/redirect'
 
 // nav
 import menus from './types/menus'
@@ -95,6 +97,7 @@ export default createSchema({
     pricingTable,
     commonText,
     author,
+    redirects,
     // components
     pricingTableRow,
     // Modules
@@ -125,6 +128,7 @@ export default createSchema({
     testimonials,
     pricingTableRef,
     commonTextRef,
+    redirect,
     // tabs
     globalContent,
     pageContent,

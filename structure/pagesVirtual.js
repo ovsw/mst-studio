@@ -13,6 +13,7 @@ const TestimonialsIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🌟'
 const QuoteIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='💲' />
 const CampIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='⛺' />
 const ResourcesIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🎈' />
+const StaffIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🧑' />
 
 export const PageMenuItemVirtual = S.listItem()
   .title('Virtual Pages')
@@ -43,7 +44,7 @@ export const PageMenuItemVirtual = S.listItem()
           .schemaType('page'),
         S.documentListItem()
           .id('virtualRecoomendedCamps')
-          .title('Recommended Camps')
+          .title('Virtual Camp Programming')
           .icon(CampIcon)
           .schemaType('page'),
         S.documentListItem()
@@ -70,6 +71,11 @@ export const PageMenuItemVirtual = S.listItem()
           .id('virtualZoomDemo')
           .icon(ComputerIcon)
           .title('Virtual Zoom Demo')
+          .schemaType('page'),
+        S.documentListItem()
+          .id('c4197b96-366f-46e1-babc-f249de1e2d1e')
+          .icon(StaffIcon)
+          .title('Let Us Train Your Staff')
           .schemaType('page')
       ])
   )

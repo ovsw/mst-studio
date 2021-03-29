@@ -53,7 +53,7 @@ export default {
           }
         ]
       },
-      validation: Rule => Rule.required()
+      validation: Rule => Rule.min(1).required()
     },
     {
       name: 'ageRange',
@@ -85,7 +85,7 @@ export default {
           }
         ]
       },
-      validation: Rule => Rule.required()
+      validation: Rule => Rule.min(1).required()
     },
     {
       name: 'noOfParticipants',
@@ -117,7 +117,7 @@ export default {
           }
         ]
       },
-      validation: Rule => Rule.required()
+      validation: Rule => Rule.min(1).required()
     },
     {
       name: 'themes',
@@ -209,7 +209,7 @@ export default {
           }
         ]
       },
-      validation: Rule => Rule.required()
+      validation: Rule => Rule.min(1).required()
     },
     {
       name: 'hollidays',
@@ -273,7 +273,7 @@ export default {
           }
         ]
       },
-      validation: Rule => Rule.required()
+      validation: Rule => Rule.min(1).required()
     }
   ]
 }

@@ -20,12 +20,12 @@
   --font-size-base: 16px;
   /* --text-color: var(--brand-primary--inverted); */
   --text-color: rgb(88, 88, 88);
-  
+
   --header-height: 3.3rem;
 
-  
+
   --default-button-color: var(--brand-primary);
-  
+
   --default-button-color: rgb(104, 173, 13);
   --default-button-color--inverted: var(--white);
   --default-button-color--hover: #87CC2F;

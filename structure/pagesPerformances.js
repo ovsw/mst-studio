@@ -4,7 +4,7 @@ import Emoji from 'a11y-react-emoji'
 
 const Icon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🎭' />
 const FindIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🔎' />
-const BookIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='📚' />
+// const BookIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='📚' />
 const LandingPageIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🛬' />
 const QuestionIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='❓' />
 const TestimonialsIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🌟' />
@@ -32,11 +32,11 @@ export const PageMenuItemPerformances = S.listItem()
           .title('Find your Performance Page')
           .schemaType('pageWizard')
           .icon(FindIcon),
-        S.documentListItem()
-          .id('performanceDirectory')
-          .title('Performance Directory Page')
-          .schemaType('page')
-          .icon(BookIcon),
+        // S.documentListItem()
+        //   .id('performanceDirectory')
+        //   .title('Performance Directory Page')
+        //   .schemaType('page')
+        //   .icon(BookIcon),
         S.listItem()
           .id('performanceListFolder')
           .icon(Icon)

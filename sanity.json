@@ -14,11 +14,13 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
+    "@sanity/dashboard",
     "vision",
     "@sanity/color-input",
     "media",
     "tabs",
-    "seo-tools"
+    "seo-tools",
+    "dashboard-widget-netlify"
   ],
   "parts": [
     {
@@ -32,6 +34,10 @@
     {
       "implements": "part:@sanity/base/theme/variables/override-style",
       "path": "./styles/variables.css"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "dashboardConfig.js"
     }
   ]
 }

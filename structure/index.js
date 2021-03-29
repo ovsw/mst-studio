@@ -9,6 +9,7 @@ import { TestimonialsMenuItem } from './testimonials'
 import { PricingTablesMenuItem } from './pricingTables'
 import { CommonTextsMenuItem } from './commonTexts'
 import { AuthorsMenuItem } from './authors'
+import { RedirectsMenuItem } from './redirects'
 
 module.exports = {
   ConfigMenu: ConfigMenu,
@@ -21,5 +22,6 @@ module.exports = {
   TestimonialsMenuItem: TestimonialsMenuItem,
   PricingTablesMenuItem: PricingTablesMenuItem,
   CommonTextsMenuItem: CommonTextsMenuItem,
-  AuthorsMenuItem: AuthorsMenuItem
+  AuthorsMenuItem: AuthorsMenuItem,
+  RedirectsMenuItem: RedirectsMenuItem
 }

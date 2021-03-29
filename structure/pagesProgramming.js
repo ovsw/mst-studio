@@ -24,11 +24,11 @@ export const PageMenuItemProgramming = S.listItem()
     S.list()
       .title('Programming Pages')
       .items([
-        S.documentListItem()
-          .id('programmingHome')
-          .title('Programming - Landing Page')
-          .icon(LandingPageIcon)
-          .schemaType('page'),
+        // S.documentListItem()
+        //   .id('programmingHome')
+        //   .title('Programming - Landing Page')
+        //   .icon(LandingPageIcon)
+        //   .schemaType('page'),
         S.documentListItem()
           .id('ourCampPackage')
           .title('Camp Package')
