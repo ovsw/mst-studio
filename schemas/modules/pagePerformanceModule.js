@@ -80,6 +80,10 @@ export default {
             value: 'g7plus'
           },
           {
+            title: 'Adults',
+            value: 'adults'
+          },
+          {
             title: 'A bit of Everything',
             value: 'mixed'
           }
@@ -128,8 +132,16 @@ export default {
         layout: 'tags',
         list: [
           {
+            title: 'Anti-Bullying',
+            value: 'anti-bullying'
+          },
+          {
             title: 'Arts & Culture',
             value: 'arts-culture'
+          },
+          {
+            title: 'Black History Month',
+            value: 'black-history-month'
           },
           {
             title: 'Charity',
@@ -144,48 +156,52 @@ export default {
             value: 'diversity'
           },
           {
+            title: 'Dual Language',
+            value: 'dual-language'
+          },
+          {
             title: 'Environmental Awareness',
             value: 'environmental'
+          }, 
+          {
+            title: 'Gratitude',
+            value: 'gratitude'
           },
           {
-            title: 'Full Day Experiences',
-            value: 'full-day'
-          },
-          {
-            title: 'Fun for Adults Too',
-            value: 'fun-for-adults'
-          },
-          {
-            title: 'History',
-            value: 'history'
+            title: 'Hispanic Heritage',
+            value: 'hispanic-heritage'
           },
           {
             title: 'Independence',
             value: 'independence'
           },
           {
-            title: 'Israel',
-            value: 'israel'
-          },
-          {
             title: 'Literacy',
             value: 'literacy'
+          },
+          {
+            title: 'Magical Elements',
+            value: 'magical-elements'
           },
           {
             title: 'Mystery',
             value: 'mystery'
           },
           {
-            title: 'Nature',
-            value: 'nature'
+            title: 'Puppets',
+            value: 'puppets'
           },
           {
-            title: 'PJ Library',
-            value: 'pj-library'
+            title: 'Resilience',
+            value: 'resilience'
           },
           {
-            title: 'Respect',
+            title: 'Respect for All',
             value: 'respect'
+          },
+          {
+            title: 'Staff Appreciation',
+            value: 'staff-appreciation'
           },
           {
             title: 'STEM',
@@ -194,14 +210,6 @@ export default {
           {
             title: 'Summer Camp',
             value: 'camp'
-          },
-          {
-            title: 'Superhero',
-            value: 'superhero'
-          },
-          {
-            title: 'Technology',
-            value: 'technology'
           },
           {
             title: 'Women\'s Empowerment',
@@ -232,24 +240,12 @@ export default {
             value: 'christmaschristmas'
           },
           {
-            title: 'Earth Day',
-            value: 'earth-day'
-          },
-          {
-            title: 'Election Day',
-            value: 'election-day'
-          },
-          {
             title: 'Halloween',
             value: 'halloween'
           },
           {
             title: 'High Holidays',
             value: 'high-holidays'
-          },
-          {
-            title: 'Independence Day',
-            value: 'independence-day'
           },
           {
             title: 'Passover',
@@ -263,14 +259,6 @@ export default {
             title: 'Purim',
             value: 'purim'
           },
-          {
-            title: 'Shabbat',
-            value: 'shabbat'
-          },
-          {
-            title: 'Tu BiShvat',
-            value: 'tu-bishvat'
-          }
         ]
       },
       validation: Rule => Rule.min(1).required()
