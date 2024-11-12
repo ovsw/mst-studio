@@ -224,8 +224,12 @@ export default {
         layout: 'tags',
         list: [
           {
-            title: 'none',
+            title: 'None',
             value: 'none'
+          },
+          {
+            title: 'Black History Month',
+            value: 'black-history-month'
           },
           {
             title: 'Chanukah',
@@ -233,7 +237,7 @@ export default {
           },
           {
             title: 'Christmas',
-            value: 'christmaschristmas'
+            value: 'christmas'
           },
           {
             title: 'Halloween',
@@ -254,7 +258,7 @@ export default {
           {
             title: 'Purim',
             value: 'purim'
-          },
+          }
         ]
       },
       validation: Rule => Rule.min(1).required()
