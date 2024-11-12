@@ -2,7 +2,7 @@ import React from 'react'
 import S from '@sanity/desk-tool/structure-builder'
 import Emoji from 'a11y-react-emoji'
 
-const HiddenIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🐱‍👤' />
+const HiddenIcon = () => <Emoji style={{ fontSize: '2rem' }} symbol='🥷' />
 
 export const PageMenuItemHidden = S.listItem()
   .title('Hidden pages')

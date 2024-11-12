@@ -2,7 +2,7 @@ export default {
   title: 'Page Content',
   name: 'pageWizardModule',
   type: 'object',
-  hidden: true,
+  hidden: false,
   fields: [
     {
       name: 'title',

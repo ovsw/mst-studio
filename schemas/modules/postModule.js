@@ -2,7 +2,7 @@ export default {
   title: 'Page Content',
   name: 'postModule',
   type: 'object',
-  hidden: true,
+  hidden: false,
   fieldsets: [
     {
       name: 'modules',

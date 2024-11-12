@@ -2,7 +2,7 @@ export default {
   title: 'Inner Hero Module',
   name: 'heroInnerModule',
   type: 'object',
-  hidden: true,
+  // hidden: true,
   fields: [
     {
       name: 'title',

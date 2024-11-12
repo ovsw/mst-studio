@@ -1,11 +1,8 @@
-import Tabs from 'sanity-plugin-tabs'
-
 export default {
   name: 'pageContent',
   type: 'object',
   title: 'Page Content',
-  inputComponent: Tabs,
-  fieldsets: [
+  groups: [
     { name: 'main', title: 'Main' },
     { name: 'defaultMeta', title: 'Meta' }
   ],
@@ -13,12 +10,12 @@ export default {
     {
       type: 'pageModule',
       name: 'main',
-      fieldset: 'main'
+      group: 'main'
     },
     {
       type: 'metaCard',
       name: 'meta',
-      fieldset: 'defaultMeta'
+      group: 'defaultMeta'
     }
   ]
 }

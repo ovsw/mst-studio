@@ -2,7 +2,7 @@ export default {
   title: 'Page Item',
   name: 'pageItem',
   type: 'object',
-  hidden: true,
+  hidden: false,
   fields: [
     {
       name: 'title',

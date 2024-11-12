@@ -2,7 +2,7 @@ export default {
   title: 'Image With Text',
   name: 'imageWTextOverModule',
   type: 'object',
-  hidden: true,
+  hidden: false,
   fields: [
     {
       name: 'theme',
