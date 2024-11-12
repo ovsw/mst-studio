@@ -140,10 +140,6 @@ export default {
             value: 'arts-culture'
           },
           {
-            title: 'Black History Month',
-            value: 'black-history-month'
-          },
-          {
             title: 'Charity',
             value: 'charity'
           },
@@ -162,7 +158,7 @@ export default {
           {
             title: 'Environmental Awareness',
             value: 'environmental'
-          }, 
+          },
           {
             title: 'Gratitude',
             value: 'gratitude'
