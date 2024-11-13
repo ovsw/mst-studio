@@ -20,7 +20,7 @@ export const ConfigMenu = S.listItem()
         //       .params({ type: 'menus' })
         //   ),
         S.documentListItem()
-          .title('Performances Menu')
+          .title('Year-Round Shows')
           .id('menusPerformances')
           .schemaType('menus'),
         S.documentListItem()
@@ -28,7 +28,7 @@ export const ConfigMenu = S.listItem()
           .id('menusProgramming')
           .schemaType('menus'),
         S.documentListItem()
-          .title('Live Menu')
+          .title('Summer Camp Shows')
           .id('menusLive')
           .schemaType('menus'),
         S.documentListItem()
